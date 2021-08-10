@@ -1,10 +1,12 @@
 require 'minigl'
 
-require_relative 'config'
+require_relative 'engine/task'
+require_relative 'engine/game_engine'
+require_relative 'gui/config'
+require_relative 'gui/message'
+require_relative 'gui/text'
+require_relative 'gui/answer_button'
+require_relative 'gui/main'
 require_relative 'game'
-require_relative 'question'
-require_relative 'text'
-require_relative 'answer_button'
-require_relative 'main'
 
 Millionaire::Game.new
